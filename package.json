@@ -1,0 +1,22 @@
+{
+  "name": "trials-",
+  "version": "0.0.0",
+  "description": "",
+  "main": "trial2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maiko295/trials-.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/maiko295/trials-/issues"
+  },
+  "dependencies": {
+    "cron": "~1.0.6",
+    "msexcel-builder": "0.0.2"
+  }
+}
