@@ -3,15 +3,35 @@ var request = require('request');
 // var cheerio = require('cheerio');
 var excelbuilder = require('msexcel-builder');
 
-// install node.js 
-// install npm install cron 
-// install npm install cheerio 
-// install npm install msexcel-builder
 
 // ERRORS:::
 
 // need to append to existing fil and have a for loop to find if its empty 
 
+
+/*
+
+
+Manipulating with cell npm install xlsx
+
+Opening / writing file 
+if(typeof require !== 'undefined') XLSX = require('xlsx')
+var workbook = XLSX.readFile('filename.xlsx');
+
+XLSX.write(wb, 'filename.xlsx')
+
+XLS.utils
+cell adreess as {c:c, r:R} C = colum, R = Row 
+example B5 = {c:1, r:4}
+
+cell range objects = {s:s, e:E} s first cell, e last cell 
+example range A3:B7 = {s:{c:0, r:2}, e:{c:1, r:6}}
+for(var R = range.s.r; R <= range.e.r; ++R) {
+  for(var C = range.s.c; C <= range.e.c; ++C) {
+    var cell_address = {c:C, r:R};
+  }
+}
+*/
 //node cron that run every day cron exmple 
 
 var getWeather = function () {
