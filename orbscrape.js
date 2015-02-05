@@ -31,6 +31,8 @@ for(var R = range.s.r; R <= range.e.r; ++R) {
     var cell_address = {c:C, r:R};
   }
 }
+
+if value = NULl then input data stream 
 */
 //node cron that run every day cron exmple 
 

@@ -3,6 +3,8 @@
 var arduinojs = require("johnny-five");
 boolean isGreen;
 
+// after orbscrape script read the final cell of that line ato set the boolean?
+
 arduinojs.Board().on("ready", fucntion() {
 	var myLight = new arduinojs.Led.RGB([ 9, 10, 11]);
 	//RGB depends on waht pin you connect to on the right of the board 
